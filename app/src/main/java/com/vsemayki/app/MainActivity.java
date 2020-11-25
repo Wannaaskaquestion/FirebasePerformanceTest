@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void manualNetworkTrace() {
         // [START perf_manual_network_trace]
         HttpMetric metric =
-                FirebasePerformance.getInstance().newHttpMetric("https://www.google_firebase_25_13_0.com",
+                FirebasePerformance.getInstance().newHttpMetric("https://www.google_firebase_26_1_0.com",
                         FirebasePerformance.HttpMethod.GET);
         metric.start();
 
